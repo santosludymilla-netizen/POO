@@ -1,0 +1,10 @@
+class ContaBancaria:
+    def __init__(self, saldo_inicial=0):
+        self.__saldo = saldo_inicial
+
+    def depositarSaldo(self, valor):
+        if valor > 0:
+            self.__saldo += valor
+
+    def consultarSaldo(self):
+        return self.__saldo
