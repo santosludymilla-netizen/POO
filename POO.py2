@@ -1,0 +1,25 @@
+
+class Produto:
+   def __init__(self, nome, preco ,estoque):
+       self.nome = nome
+       self.preco = preco
+       self.estoque = estoque
+
+
+
+
+produto1 = Produto("lapis",1.00,40)
+produto2 = Produto ("pasta", 5.00, 34)
+
+
+print ("produto1 :")
+print ("Nome: " , produto1.nome)
+print("Preço: ", produto1.preco)
+print("Estoque: ",produto1.estoque)
+
+
+print("\nproduto 2:")
+print("Nome: ",produto2.nome)
+print("preço: ",produto2.preco)
+print("Estoque: ", produto2.estoque)
+
