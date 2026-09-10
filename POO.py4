@@ -1,0 +1,12 @@
+class Retangulo:
+    def __init__(self ,largura , altura):
+        self.largura = largura
+        self.altura = altura
+
+    def calcularPerimetro(self):      
+          return 2 * (self.largura + self.altura)
+
+retangulo = Retangulo (15,4) 
+print("largura: ", retangulo.largura)
+print("altura: ", retangulo.altura)
+print(retangulo.calcularPerimetro())
